@@ -4,9 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="script.js" defer></script>
   <title>Cocktail Trivia</title>
 </head>
 <body>
+  <div class="intro">
+    <h1>Let's Play...</h1>
+    <h2>Cocktail Trivia!</h2>
+    <button class="start">Start</button>
+  </div>
   <section>
 
     <h1 class="gameTitle">Cocktail Trivia</h1>
@@ -18,10 +24,10 @@
           <h3>Which one of this choices IS NOT a whiskey?</h3>
           <img src="./img/woodford.jpeg" alt="Woodford Bourbon" />
           <div class="answers">
-            <button class="incorrectChoice">Maker's Mark</button>
-            <button class="correctChoice">Botanist</button>
-            <button class="incorrectChoice">Laphroig</button>
-            <button class="incorrectChoice">Monkey Shoulder</button>
+            <button class="choices incorrect">Maker's Mark</button>
+            <button class="choices correct">Botanist</button>
+            <button class="choices incorrect">Laphroig</button>
+            <button class="choices incorrect">Monkey Shoulder</button>
           </div>
         </div>
         
@@ -29,10 +35,10 @@
           <h3>Ahhh....the classic Cosmo: Vodka, Cointreu, Cranberry juice, AND???? </h3>
           <img src="./img/cosmo.gif" alt="Ina Garten Cosmo" />
           <div class="answers">
-            <button class="incorrectChoice">Lemon juice</button>
-            <button class="correctChoice">Lime juice</button>
-            <button class="incorrectChoice">Simple syrup</button>
-            <button class="incorrectChoice">Bitters</button>
+            <button class="choices incorrect">Lemon juice</button>
+            <button class="choices correct">Lime juice</button>
+            <button class="choices incorrect">Simple syrup</button>
+            <button class="choices incorrect">Bitters</button>
           </div>
         </div>
 
@@ -40,10 +46,10 @@
           <h3>Which one of this spirits belongs in a Manhattan?</h3>
           <img src="./img/Manhattan.jpg" alt="Manhattan Cocktail" />
           <div class="answers">
-            <button class="incorrectChoice">Tito's</button>
-            <button class="correctChoice">Elijah Craig</button>
-            <button class="incorrectChoice">Bombay Sapphire</button>
-            <button class="incorrectChoice">Casamigos</button>
+            <button class="choices incorrect">Tito's</button>
+            <button class="choices correct">Elijah Craig</button>
+            <button class="choices incorrect">Bombay Sapphire</button>
+            <button class="choices incorrect">Casamigos</button>
           </div>
         </div>
 
@@ -51,10 +57,10 @@
           <h3>What does IPA stand for?</h3>
           <img src="./img/beer.jpeg" alt="Beer" />
           <div class="answers">
-            <button class="incorrectChoice">International Pale Ale</button>
-            <button class="correctChoice">India Pale Ale</button>
-            <button class="incorrectChoice">India Porter Ale</button>
-            <button class="incorrectChoice">Indian Pilsner Ale</button>
+            <button class="choices incorrect">International Pale Ale</button>
+            <button class="choices correct">India Pale Ale</button>
+            <button class="choices incorrect">India Porter Ale</button>
+            <button class="choices incorrect">Indian Pilsner Ale</button>
           </div>
         </div>
 
@@ -62,10 +68,10 @@
           <h3>Which one of these ingredients has no business in a Lemon Drop Martini?</h3>
           <img src="./img/LemonDrop.jpeg" alt="Lemon Drop Martini" />
           <div class="answers">
-            <button class="incorrectChoice">Lemon Juice</button>
-            <button class="incorrectChoice">Vodka</button>
-            <button class="correctChoice">Olive Juice</button>
-            <button class="incorrectChoice">Simple Syrup</button>
+            <button class="choices incorrect">Lemon Juice</button>
+            <button class="choices incorrect">Vodka</button>
+            <button class="choices correct">Olive Juice</button>
+            <button class="choices incorrect">Simple Syrup</button>
           </div>
         </div>
 
@@ -73,10 +79,10 @@
           <h3>What is the proper garnish for a Gibson?</h3>
           <img src="./img/Martinis.jpeg" alt="Martinis" />
           <div class="answers">
-            <button class="incorrectChoice">Blue Cheese Olives</button>
-            <button class="correctChoice">Cocktail Onions</button>
-            <button class="incorrectChoice">Luxardo Cherries</button>
-            <button class="incorrectChoice">Lemon Twist</button>
+            <button class="choices incorrect">Blue Cheese Olives</button>
+            <button class="choices correct">Cocktail Onions</button>
+            <button class="choices incorrect">Luxardo Cherries</button>
+            <button class="choices incorrect">Lemon Twist</button>
           </div>
         </div>
 
@@ -84,10 +90,10 @@
           <h3>Some old guy walks up to you and asks for a 'Rusty Nail' What do you give him?</h3>
           <img src="./img/rusty-nails.jpeg" alt="Rusty Nails" />
           <div class="answers">
-            <button class="incorrectChoice">A very confused look...</button>
-            <button class="correctChoice">Scotch andd Drambuie</button>
-            <button class="incorrectChoice">Whiskey and Sweet Vermouth</button>
-            <button class="incorrectChoice">Guiness Stout and Bass Pale</button>
+            <button class="choices incorrect">A very confused look...</button>
+            <button class="choices correct">Scotch andd Drambuie</button>
+            <button class="choices incorrect">Whiskey and Sweet Vermouth</button>
+            <button class="choices incorrect">Guiness Stout and Bass Pale</button>
           </div>
         </div>
 
@@ -95,10 +101,10 @@
           <h3>Bourbon must be made from ATLEAST how much corn?</h3>
           <img src="./img/Bourbon-with-corn-grains.jpg" alt="Bourbon and Corn" />
           <div class="answers">
-            <button class="incorrectChoice">33%</button>
-            <button class="correctChoice">51%</button>
-            <button class="incorrectChoice">70%</button>
-            <button class="incorrectChoice">100%</button>
+            <button class="choices incorrect">33%</button>
+            <button class="choices correct">51%</button>
+            <button class="choices incorrect">70%</button>
+            <button class="choices incorrect">100%</button>
           </div>
         </div>
 
@@ -106,10 +112,10 @@
           <h3>What is the minimum time Reposado tequilas must be aged?</h3>
           <img src="./img/Reposado.avif" alt="Reposado" />
           <div class="answers">
-            <button class="incorrectChoice">2 Days</button>
-            <button class="incorrectChoice">2 Weeks</button>
-            <button class="correctChoice">2 Months</button>
-            <button class="incorrectChoice">2 Years</button>
+            <button class="choices incorrect">2 Days</button>
+            <button class="choices incorrect">2 Weeks</button>
+            <button class="choices correct">2 Months</button>
+            <button class="choices incorrect">2 Years</button>
           </div>
         </div>
 
@@ -117,18 +123,21 @@
           <h3>Which two spirits belong in a Vesper?</h3>
           <img src="./img/Vesper.jpeg" alt="Vesper" />
           <div class="answers">
-            <button class="incorrectChoice">Vodka and Rum</button>
-            <button class="incorrectChoice">Whiskey and Gin</button>
-            <button class="correctChoice">Vodka and Gin</button>
-            <button class="incorrectChoice">Whiskey and Rum</button>
+            <button class="choices incorrect">Vodka and Rum</button>
+            <button class="choices incorrect">Whiskey and Gin</button>
+            <button class="choices correct">Vodka and Gin</button>
+            <button class="choices incorrect">Whiskey and Rum</button>
           </div>
         </div>
 
       </div>
     </div>
-
-    <div class="scoreKeeper">Score</div>
-    <button class="restartQuiz">Restart</button>
+ 
+    <div class="endGame">
+      <div class="finalScore"></div>
+      <div class="result"></div>
+      <button class="restart">Restart</button>
+    </div>
 
   </section>
   
