@@ -64,27 +64,27 @@ function calculateScore(e) {
     } else if (score === 4) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
-        "Stop ordering Long Island Iced Teas and broaden your horizons...";
+        "Booo! Stop ordering Long Island Iced Teas and broaden your horizons...";
     } else if (score === 5) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
-        "Stop ordering Long Island Iced Teas and broaden your horizons...";
+        "Booo! Stop ordering Long Island Iced Teas and broaden your horizons...";
     } else if (score === 6) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
-        "It's 5'oclock somewhere, you've earned yourself a drink!";
+        "It's 5'oclock somewhere; you've earned yourself a drink!";
     } else if (score === 7) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
-        "It's 5'oclock somewhere, you've earned yourself a drink!";
+        "It's 5'oclock somewhere; you've earned yourself a drink!";
     } else if (score === 8) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
-      "It's 5'oclock somewhere, you've earned yourself a drink!";
+      "It's 5'oclock somewhere; you've earned yourself a drink!";
     } else if (score === 9) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
-      "It's 5'oclock somewhere, you've earned yourself a drink!";
+      "It's 5'oclock somewhere; you've earned yourself a drink!";
     } else if (score === 10) {
       finalScore.innerText = `You knew ${score}/10 cocktails!`;
       result.innerText =
