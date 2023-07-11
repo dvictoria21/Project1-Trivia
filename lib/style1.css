@@ -1,3 +1,7 @@
+* {
+  font-family: Bebas Neue;
+}
+
 body {
   display: grid;
   background-image: url("./img/bar-background.jpeg");
@@ -5,22 +9,43 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  font-size: 25px;
+  font-size: 40px;
 }
 
 h1, h2{
   text-align: center;
-  color: black;
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: .2px tan;
+}
+
+.intro {
+  display: grid;
+  align-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 75px;
+}
+
+.intro, .start, .questionArea {
+  background-color: rgb(90, 146, 98, 0.7);
+  border: 2px solid tan;
+  border-radius: 2px;
+  
+}
+
+
+.gameTitle {
+  display: none;
 }
 
 .start {
-  background-color: rgb(90, 146, 98);
-  border: 2px solid tan;
-  border-radius: 5px;
   font-size: 30px;
   margin-bottom: 20px;
   width: 200px;
   justify-self: center;
+  outline: 2px solid black;
 }
 
 .start:hover {
@@ -28,20 +53,11 @@ h1, h2{
   background-color: rgb(212, 194, 151);
 }
 
-.restart {
-  background-color: rgb(90, 146, 98);
-  border: 2px solid tan;
-  text-align: left;
-  border-radius: 5px;
-  font-size: 30px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 
 .choices {
   background-color: rgb(90, 146, 98);
   border: 2px solid tan;
-  text-align: left;
+  text-align: center;
   border-radius: 5px;
   font-size: 30px;
   padding-left: 1rem;
@@ -62,24 +78,15 @@ h1, h2{
   grid-column-gap: 2rem;
 }
 
-.restart:hover {
-  background-color: tan;
-  border: 2px solid rgb(90, 146, 98);
-}
-
-.gameTitle {
-  display: none;
-}
 
 .questionArea {
   display: grid;
-  background-color: rgb(90, 146, 98, 0.7);
-  border: 2px solid tan;
   max-width: fit-content;
 }
 .question{
   display: none;
   color: black;
+  -webkit-text-stroke: .5px tan;
   text-align: center;
   max-width: fit-content;
   margin: auto;
@@ -87,26 +94,23 @@ h1, h2{
 
 .endGame {
   display: none;
-  background-color: rgb(90, 146, 98, 0.7);
+  background-color: rgb(90, 146, 98);
   border: 2px solid tan;
-  margin-top: 5%;
+  outline: 4px black;
   text-align: center;
-  font-size: 2.5rem;
+  -webkit-text-stroke: .5px tan;
+  font-size: 45px;
 }
 
-.result{
-  margin-top: 5%;
-}
-
-.restart {
-  margin-top: 5%;
-  margin-bottom: 5%;
+.result, .finalScore {
+  margin-top: 50px;
 }
 
 img{
   margin: auto;
   max-width: 200px;
   border: 5px solid tan;
+  outline: 4px solid black;
 }
 
 section {
@@ -114,8 +118,18 @@ section {
   justify-content: center;
 }
 
-.intro {
-  display: grid;
-  background-color: rgb(90, 146, 98, 0.7);
+.restart {
+  background-color: rgb(90, 146, 98);
   border: 2px solid tan;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 40px 0;
+}
+
+.restart:hover {
+  background-color: tan;
+  border: 2px solid rgb(90, 146, 98);
 }
